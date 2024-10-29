@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     colors: {
-      white:'#ffffff',
+      white: '#ffffff',
       indigo: {
         100: '#E8EAF6',  // lighter indigo
         200: '#BEC7FD',  // pale indigo
@@ -28,10 +28,25 @@ export default {
       },
       yellow: {
         400: '#FFEB3B',  // primary yellow
+      },
+      blue: {
+        500: '#7283E8'
+      },
+      black: {
+        500: '#000000'
+      },
+      purple: {
+        500: '#BEC7FD'
+      },
+      lightPurple: {
+        500: '#7283E8'
       }
     },
-    extend: {},
+    extend: {
+      fontSize: {
+        'base': '16px', // 16px font size
+      }
+    },
   },
   plugins: [],
 }
-
