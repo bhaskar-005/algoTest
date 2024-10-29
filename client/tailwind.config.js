@@ -29,6 +29,7 @@ export default {
       yellow: {
         400: '#FFEB3B',  // primary yellow
       },
+<<<<<<< HEAD
       blue: {
         500: '#7283E8'
       },
@@ -46,6 +47,8 @@ export default {
       fontSize: {
         'base': '16px', // 16px font size
       }
+=======
+>>>>>>> 447d8213677cdb106f2a1178ffe016d4a629ec60
     },
   },
   plugins: [],
