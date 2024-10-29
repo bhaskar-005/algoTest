@@ -1,6 +1,6 @@
-import { NavLink } from 'react-router-dom';
-import { LuLayoutDashboard } from "react-icons/lu";
 import { IoIosArrowDown } from "react-icons/io";
+import { LuLayoutDashboard } from "react-icons/lu";
+import { NavLink } from 'react-router-dom';
 const Sidebar = () => {
   return (
     <aside className="w-64 bg-white border-r border-gray-100">
@@ -29,6 +29,17 @@ const Sidebar = () => {
         >
           <IoIosArrowDown className="h-5 w-5 text-gray-800" />
           <span className="text-gray-800">BackTesting</span>
+        </NavLink>
+        <NavLink
+          to="/showbucket"
+          className={({ isActive }) =>
+            `flex items-center space-x-2 p-2 rounded-lg ${
+              isActive ? 'bg-indigo-100' : 'hover:bg-indigo-100'
+            }`
+          }
+        >
+          <IoIosArrowDown className="h-5 w-5 text-gray-800" />
+          <span className="text-gray-800">Showbucket</span>
         </NavLink>
       </nav>
     </aside>
