@@ -28,7 +28,7 @@ export default {
       },
       yellow: {
         400: '#FFEB3B',  // primary yellow
-      }
+      },
     },
     extend: {},
   },
