@@ -17,10 +17,8 @@ function App() {
           <Route path="/" element={<RootLayout />}>
             <Route index element={<div>home page</div>} />
             <Route path="dashboard" element={<Dashboard />} />
-            <Route path="backtesting" element={<Backtest />} />
             <Route path="bucket" element={<Bucket />} />
             <Route path="showbucket/:bucketName" element={<ShowBucket/>} />
-            <Route path="ImportFeature" element={<ImportFeature/>} />
             <Route path="AllBucket" element={<AllBucket/>} />
           
           </Route>

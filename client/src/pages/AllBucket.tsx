@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import DotsIcon from "../assets/DotsIcon";
 import { NavLink } from "react-router-dom";
 import TrashBinIcon from "../assets/TrashBinIcon";
-import ImportModal from "../models/importModals"; // Import the modal component
+// import ImportModal from "../models/importModals"; // Import the modal component
 import "../pagescss/allbucketpage.css"; // Add this to import the CSS styles
 
 const AllBucket = () => {

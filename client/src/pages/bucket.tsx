@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { FiArrowLeft, FiUpload } from "react-icons/fi";
 import PlayButton from "../assets/PlayButton";
 import { useNavigate } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
+
 
 const AddBucket: React.FC = () => {
   const [strategies, setStrategies] = useState<Array<any>>([]);
@@ -234,7 +236,9 @@ const AddBucket: React.FC = () => {
             Create Bucket
           </button>
           <button className="px-6 py-3 bg-red-300 text-white rounded-md shadow-sm">
+            <NavLink to={'/AllBucket'}>
             Cancel
+            </NavLink>
           </button>
         </div>
       </div>

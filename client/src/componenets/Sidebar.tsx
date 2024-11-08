@@ -45,30 +45,7 @@ const Sidebar = () => {
           <IoIosArrowDown className="h-5 w-5 text-gray-800" />
           <span className="text-gray-800">AllBucket</span>
         </NavLink>
-        <NavLink
-          to="/bucket"
-          className={({ isActive }) =>
-            `flex items-center space-x-2 p-2 rounded-lg ${
-              isActive ? 'bg-indigo-100' : 'hover:bg-indigo-100'
-            }`
-          }
-        >
-          
-          <IoIosArrowDown className="h-5 w-5 text-gray-800" />
-          <span className="text-gray-800">Create Bucket</span>
-        </NavLink>
-        <NavLink
-          to="/showbucket"
-          className={({ isActive }) =>
-            `flex items-center space-x-2 p-2 rounded-lg ${
-              isActive ? 'bg-indigo-100' : 'hover:bg-indigo-100'
-            }`
-          }
-        >
-          
-          <IoIosArrowDown className="h-5 w-5 text-gray-800" />
-          <span className="text-gray-800">Show Bucket</span>
-        </NavLink>
+        
       </nav>
     </aside>
   );
