@@ -4,6 +4,10 @@ import RootLayout from "./layout/RootLayout";
 import Dashboard from "./pages/Dashboard";
 import Backtest from "./pages/Backtest";
 import Bucket from './pages/bucket';
+import ShowBucket from "./pages/ShowBucket";
+import ImportFeature from './pages/importFeature'
+import AllBucket from "./pages/AllBucket";
+
 
 function App() {
   return (
@@ -15,6 +19,10 @@ function App() {
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="backtesting" element={<Backtest />} />
             <Route path="bucket" element={<Bucket />} />
+            <Route path="showbucket/:bucketName" element={<ShowBucket/>} />
+            <Route path="ImportFeature" element={<ImportFeature/>} />
+            <Route path="AllBucket" element={<AllBucket/>} />
+          
           </Route>
         </Routes>
       </BrowserRouter>

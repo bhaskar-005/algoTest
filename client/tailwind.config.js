@@ -47,6 +47,19 @@ export default {
         'base': '16px', // 16px font size
       }
     },
+    maxHeight: {
+      '500': '420px', // Add your custom height here
+    },
+    backdropBlur: {
+      // You can customize the values or add your own
+      xs: '2px',
+      sm: '4px',
+      md: '8px',
+      lg: '16px',
+      xl: '24px',
+      '2xl': '40px',
+    },
+
   },
   plugins: [],
 }
